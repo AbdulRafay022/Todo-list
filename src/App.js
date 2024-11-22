@@ -240,24 +240,28 @@ function AllInputs({
         <div className="flex gap-4 ml-auto">
           <span
             onClick={() => setFilter("all")}
-            className={`cursor-pointer md:block hidden hover:text-gray-400 ${
-              filter === "all" ? "text-blue-500  hover:text-blue-500" : ""
+            className={`cursor-pointer md:block hidden hover:text-brightBlue ${
+              filter === "all" ? "text-brightBlue  hover:text-brightBlue" : ""
             }`}
           >
             All
           </span>
           <span
             onClick={() => setFilter("active")}
-            className={`cursor-pointer md:block hidden hover:text-gray-400 ${
-              filter === "active" ? "text-blue-500  hover:text-blue-500" : ""
+            className={`cursor-pointer md:block hidden hover:text-brightBlue ${
+              filter === "active"
+                ? "text-brightBlue  hover:text-brightBlue"
+                : ""
             }`}
           >
             Active
           </span>
           <span
             onClick={() => setFilter("completed")}
-            className={`cursor-pointer md:block hidden hover:text-gray-400 ${
-              filter === "completed" ? "text-blue-500  hover:text-blue-500" : ""
+            className={`cursor-pointer md:block hidden hover:text-brightBlue ${
+              filter === "completed"
+                ? "text-brightBlue  hover:text-brightBlue"
+                : ""
             }`}
           >
             Completed
@@ -279,24 +283,26 @@ function AllInputs({
       >
         <span
           onClick={() => setFilter("all")}
-          className={`cursor-pointer hover:text-gray-400 ${
-            filter === "all" ? "text-blue-500  hover:text-blue-500" : ""
+          className={`cursor-pointer hover:text-brightBlue ${
+            filter === "all" ? "text-brightBlue  hover:text-brightBlue" : ""
           }`}
         >
           All
         </span>
         <span
           onClick={() => setFilter("active")}
-          className={`cursor-pointer hover:text-gray-400 ${
-            filter === "active" ? "text-blue-500  hover:text-blue-500" : ""
+          className={`cursor-pointer hover:text-brightBlue ${
+            filter === "active" ? "text-brightBlue  hover:text-brightBlue" : ""
           }`}
         >
           Active
         </span>
         <span
           onClick={() => setFilter("completed")}
-          className={`cursor-pointer hover:text-gray-400 ${
-            filter === "completed" ? "text-blue-500  hover:text-blue-500" : ""
+          className={`cursor-pointer hover:text-brightBlue ${
+            filter === "completed"
+              ? "text-brightBlue  hover:text-brightBlue"
+              : ""
           }`}
         >
           Completed

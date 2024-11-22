@@ -241,7 +241,7 @@ function AllInputs({
           <span
             onClick={() => setFilter("all")}
             className={`cursor-pointer md:block hidden hover:text-gray-400 ${
-              filter === "all" ? "text-blue-600  hover:text-blue-600" : ""
+              filter === "all" ? "text-blue-500  hover:text-blue-500" : ""
             }`}
           >
             All
@@ -249,7 +249,7 @@ function AllInputs({
           <span
             onClick={() => setFilter("active")}
             className={`cursor-pointer md:block hidden hover:text-gray-400 ${
-              filter === "active" ? "text-blue-600  hover:text-blue-600" : ""
+              filter === "active" ? "text-blue-500  hover:text-blue-500" : ""
             }`}
           >
             Active
@@ -257,7 +257,7 @@ function AllInputs({
           <span
             onClick={() => setFilter("completed")}
             className={`cursor-pointer md:block hidden hover:text-gray-400 ${
-              filter === "completed" ? "text-blue-600  hover:text-blue-600" : ""
+              filter === "completed" ? "text-blue-500  hover:text-blue-500" : ""
             }`}
           >
             Completed
@@ -280,7 +280,7 @@ function AllInputs({
         <span
           onClick={() => setFilter("all")}
           className={`cursor-pointer hover:text-gray-400 ${
-            filter === "all" ? "text-blue-600  hover:text-blue-600" : ""
+            filter === "all" ? "text-blue-500  hover:text-blue-500" : ""
           }`}
         >
           All
@@ -288,7 +288,7 @@ function AllInputs({
         <span
           onClick={() => setFilter("active")}
           className={`cursor-pointer hover:text-gray-400 ${
-            filter === "active" ? "text-blue-600  hover:text-blue-600" : ""
+            filter === "active" ? "text-blue-500  hover:text-blue-500" : ""
           }`}
         >
           Active
@@ -296,7 +296,7 @@ function AllInputs({
         <span
           onClick={() => setFilter("completed")}
           className={`cursor-pointer hover:text-gray-400 ${
-            filter === "completed" ? "text-blue-600  hover:text-blue-600" : ""
+            filter === "completed" ? "text-blue-500  hover:text-blue-500" : ""
           }`}
         >
           Completed
